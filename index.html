@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Linea</title>
+	<link rel="icon" type="image/png" href="slike/ikona.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+	<!--   Navigacija  -->
+    <nav class="navbar navbar-expand-lg fixed-top sticky-top navbar-light bg_rose shadow-lg p-3 mb-5">
+		<div class="container-fluid">
+			
+			<a href="index.html" class="navbar-brand"> <img src="slike/logo.svg" alt="logo" height="70"></a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+				</span> 
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Naslovna</a>
+					</li>
+					<li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ponuda</a>
+        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          					<a class="dropdown-item" href="nokti.html">Uređivanje noktiju</a>
+          					<a class="dropdown-item" href="sminka.html">Profesionalno šminkanje</a>
+							<a class="dropdown-item" href="trepavice.html">Umjetne trepavice</a>
+    				</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cjenik.html">Cjenik</a>
+                    <li class="nav-item">
+						<a class="nav-link" href="kontakt.html">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </nav>
+	  
+	<div class="container contents">
+        <!-- Karusel -->
+		<div class="row text-center">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div id="carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slike/nokti7.jpg" alt="Lakiranje noktiju">
+						</div>
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="slike/trepavice2.jpg" alt="Ekstenzije trepavica">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="slike/uredena1.jpg" alt="Profesionalno šminkanje">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<br>
+		
+		<div class="container-fluid padding">
+			<div class="row text-center bg_najsvjetlija">
+				<div class="col-12">
+					<br>
+					<h2>Dobrodošli!</h2>
+					<br>
+					<p>U našem salonu se uvijek možete osjećati dobrodošlo. Jedini cilj nam je učiniti da se pri odlasku osjećate ljepše.</p>
+				</div>
+				<div class="col-12">
+					<video controls loop class="video">
+                		<source src="video/video.mp4" type="video/mp4">
+						Video
+            		</video>
+					<p>Music: www.bensound.com</p>
+					<br>&nbsp;
+				</div>
+			</div>
+		</div>
+
+		<br><hr>
+		
+		<!-- kartice s ponudom -->
+		<div class="row">
+			<div class="col-md-4 sm-4">
+				<br>
+				<div class="card text-center">
+					<div class="card-body">
+						<h3 class="card-title">Uređivanje noktiju</h3>
+						<hr>
+						<p>Od običnog laka do trajnog laka i gela u našoj ponudi možete dobiti što god tražite.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="nokti.html" class="btn btn-light btn-sm">Naša ponuda</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 sm-4">
+				<br>
+				<div class="card text-center">
+					<div class="card-body">
+						<h3 class="card-title">Šminkanje</h3>
+						<hr>
+						<p>Nismo svi profesionalci u šminkanju, zato Vam nudimo šminkanje kod profesionalnog make-up artista za bilo koju prigodu.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="sminka.html" class="btn btn-light btn-sm">Naša ponuda</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 sm-4">
+				<br>
+				<div class="card text-center">
+					<div class="card-body">
+						<h3 class="card-title">Umjetne trepavice</h3>
+						<hr>
+						<p>Za sve one žene koji nemaju vremena za predugo šminkanje, a žele uvijek izgledati sređeno nudimo ekstenzije za trepavice.
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="trepavice.html" class="btn btn-light btn-sm">Naša ponuda</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="hr_boja">
+
+		<!-- link za kontakt -->
+		<div class="row align-items-center text-center">
+			<div class="col-12">
+				<p>Kontaktirati nas možete <a href="kontakt.html">ovako</a>.</p>
+			</div>
+		</div>
+		<br>
+	</div>
+	
+	
+	<footer>
+		<div class="container bg_rose">
+			<div class="row text-center">
+				<div class="col-12 footer_moj">
+					<p>&copy; Lina Kezele</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  
+	  
+	  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
